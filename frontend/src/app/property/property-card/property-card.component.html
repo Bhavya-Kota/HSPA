@@ -1,13 +1,17 @@
-<div class="row " >
-<div class="shadow-lg col-sm-4 p-3" style="width:fit-content;" >
-<div class="card " style="width:fit-content;" >
-    <img class="propImg" src="assets/images/download.jpg">
-    <div class="card-body p-2">
-        <h1>{{property.type}}</h1>
-        <h2>{{property.price}}</h2>
-        <h3>{{property.name}}</h3>
+
+<div class="card" style="width:fit-content;" >
+    <div class="card-img-wrapper">
+        <img class="card-img-top" src= "assets/images/download.jpg">
+        <ul class="list-inline text-center member-icons animate">
+            <li class="list-inline-item"><button class="btn btn-primary"><i class="fa-regular fa-pen-to-square"></i></button></li>
+            <li class="list-inline-item"><button class="btn btn-primary"><i class="fa-solid fa-phone"></i></button></li>
+        </ul>
     </div>
-</div>
-</div>
+    
+    <div class="card-body p-2">
+        <h1>{{property.name}}</h1>
+        <h2>{{property.price}}</h2>
+        <h3>{{property.type}}</h3>
+    </div>
 </div>
 

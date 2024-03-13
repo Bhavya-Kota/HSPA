@@ -1,0 +1,32 @@
+[
+    {
+    "Id":1,
+    "name":"birla house",
+    "type":"House",
+    "price":20000
+    },
+    {
+      "Id":2,
+      "name":"Empires ",
+      "type":"Duplex",
+      "price":23000
+      },
+      {
+        "Id":3,
+        "name":"sunway opus",
+        "type":"Apartment",
+        "price":17000
+        },
+        {
+          "Id":4,
+          "name":"lake breeze",
+          "type":"house",
+          "price":22000
+          },
+          {
+            "Id":5,
+            "name":"Erose Villa",
+            "type":"Villa",
+            "price":18000
+            }
+]
