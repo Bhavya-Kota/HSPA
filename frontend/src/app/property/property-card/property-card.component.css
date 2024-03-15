@@ -2,7 +2,16 @@
 
 .card-img-wrapper{
     overflow: hidden;
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; 
     position:relative
+}
+
+.card-img-top1 {
+    width: 20px; /* Make the image fill the entire width of the wrapper */
+    height: 100%; /* Make the image fill the entire height of the wrapper */
+    object-fit: cover; /* Ensure the entire image is visible and fills the container */
 }
 
 .card:hover img{

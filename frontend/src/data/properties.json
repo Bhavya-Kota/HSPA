@@ -1,32 +1,42 @@
 [
     {
     "Id":1,
+    "SellRent":1,
     "name":"birla house",
     "type":"House",
-    "price":20000
+    "price":20000,
+    "image":"prop1"
     },
     {
       "Id":2,
+      "SellRent":2,
       "name":"Empires ",
       "type":"Duplex",
-      "price":23000
+      "price":23000,
+      "image":"prop-2"
       },
       {
         "Id":3,
+        "SellRent":1,
         "name":"sunway opus",
         "type":"Apartment",
-        "price":17000
+        "price":17000,
+        "image":"prop-3"
         },
         {
           "Id":4,
+          "SellRent":2,
           "name":"lake breeze",
           "type":"house",
-          "price":22000
+          "price":22000,
+          "image":"prop-4"
           },
           {
             "Id":5,
+            "SellRent":1,
             "name":"Erose Villa",
             "type":"Villa",
             "price":18000
-            }
+            
+          }
 ]
