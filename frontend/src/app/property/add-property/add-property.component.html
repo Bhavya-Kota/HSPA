@@ -6,8 +6,8 @@
   </div>
   <div class="card-body">
     <form (ngSubmit)='OnSubmit()' #Form="ngForm" >
-      <div>
-        <tabset #formTabs>
+      <div class="tab-panel">
+        <tabset class="member-tabset" #formTabs>
           
           <tab heading="Basic Info">
            <div class="form-group col-12">
@@ -210,21 +210,19 @@
           </tab>
         </tabset>
       </div>
-      
+     
      
     </form>
   </div>
   </div>
+  
 </div>
 <div class="col-4">
-  <div class="header">
+  <div class="card-header">
     <h3>Your Property Preview</h3>
-    <div>
+    <div class="shadow-lg p-3 bg-white">
       <app-property-card [property]="propertyView" ></app-property-card>
     </div>
   </div>
-  
-
+  </div>
 </div>
-</div>
-/*  */
